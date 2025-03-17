@@ -150,7 +150,7 @@ if __name__ == "__main__":
         print("Требуются права root! Запустите с sudo.", file=sys.stderr)
         sys.exit(1)
 
-    target_host = "8.8.8.8"
+    target_host = "8.8.4.4"
 
     # На Windows не нужен root для выполнения.
 
