@@ -13,6 +13,7 @@ jobs:
   example_matrix:
     strategy:
       fail-fast: true
+      max-parallel: 3
       matrix:
         os: [ubuntu-latest, windows-latest, macos-latest]
         python-version: [python-latest]
